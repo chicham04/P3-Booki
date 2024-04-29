@@ -376,13 +376,12 @@ nav li:hover a {
 }
 
 .activites-cards {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: flex-start;
-  gap: 30px;
+  display: flex; 
+  justify-content: center;
+  gap:30px;
+
 }
+
 .activites-cards .card {
   display: flex;
   flex-direction: column;
@@ -391,23 +390,29 @@ nav li:hover a {
   padding: 0%;
   box-sizing: border-box;
 }
-.activites-cards .card img {
-  height: 85%;
-  width: 100%;
-  object-position: center;
-  box-sizing: border-box;
-  border-radius: 20px 20px 0px 0px;
-  padding: 0%;
-  margin: 0%;
+
+.activitres-cards a {
+  width: 25%;
 }
-.activites-cards .card-content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.activites-cards img {
+  width: 297.5px;
+  height: 380px;
+  border-radius: 20px 20px 0px 0px;
 }
 
-  
+
+.activites-cards .card-content {
+  padding: 20px 19px 20px 19px;
+  gap: 10px;
+  border-radius: 0px 0px 20px 20px;
+}
+
+.activites-cards .card-title {
+  margin-top: 4px;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
   
   
   /* Le code ci-dessous correspond à la version responsive uniquement */
