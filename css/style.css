@@ -390,26 +390,22 @@ nav li:hover a {
   box-sizing: border-box;
 }
 
-.activitres-cards a {
-  width: 25%;
-}
 .activites-cards img {
-  width: 297.5px;
-  height: 380px;
+  height: 85%;
+  width: 100%;
+  object-position: center;
+  box-sizing: border-box;
   border-radius: 20px 20px 0px 0px;
+  padding: 0%;
+  margin: 0%;
 }
 
 
 .activites-cards .card-content {
-  padding: 20px 19px 20px 19px;
-  gap: 10px;
-  border-radius: 0px 0px 20px 20px;
-}
-
-.activites-cards .card-title {
-  margin-top: 4px;
-  margin-bottom: 8px;
-  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 					/****** Footer ***********/
