@@ -419,6 +419,7 @@ padding: 30px 0px 0px 0px;
 .footer {
   display: flex;
   background: var(--main-bg-color);
+  padding: 20px 0px 20px 20px;
 }
 
 .about {
@@ -442,6 +443,7 @@ padding: 30px 0px 0px 0px;
   line-height: 18.78px;
   text-align: left;
 }  
+
   
   /* Le code ci-dessous correspond à la version responsive uniquement */
   
