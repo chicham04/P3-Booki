@@ -359,6 +359,54 @@ nav li:hover a {
     margin-bottom: 5px;
   }
   
+										/****** Activites ***********/
+
+.activites {
+  display: flex;
+  padding: 30px;
+  gap: 30px;
+  flex-direction: column;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.activites-title {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.activites-cards {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 30px;
+}
+.activites-cards .card {
+  display: flex;
+  flex-direction: column;
+  height: 439px;
+  width: 100%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.activites-cards .card img {
+  height: 85%;
+  width: 100%;
+  object-position: center;
+  box-sizing: border-box;
+  border-radius: 20px 20px 0px 0px;
+  padding: 0%;
+  margin: 0%;
+}
+.activites-cards .card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
   
   
   
