@@ -379,6 +379,10 @@ nav li:hover a {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap:30px;
+  width: Fill (1,280px)px;
+  height: Hug (439px)px;
+
+
 }
 
 .activites-cards .card {
