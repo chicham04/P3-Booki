@@ -376,10 +376,9 @@ nav li:hover a {
 }
 
 .activites-cards {
-  display: flex; 
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   gap:30px;
-
 }
 
 .activites-cards .card {
