@@ -160,6 +160,7 @@ nav li:hover a {
   font-weight: 700;
   line-height: 21.13px;
   text-align: center;
+  border: 1px solid #F2F2F2;
 }
 
 .search-bar button {
@@ -420,6 +421,7 @@ padding: 30px 0px 0px 0px;
   display: flex;
   background: var(--main-bg-color);
   padding: 20px 0px 20px 20px;
+  margin-top: 50px;
 }
 
 .about {
