@@ -125,6 +125,7 @@ nav li:hover a {
 
 .headline h1, p {
   margin: 0%;
+  padding: 0 0 10px 0;
   gap: 8px;
 }
 
@@ -273,7 +274,6 @@ nav li:hover a {
   display: flex; 
   justify-content: center;
   gap:30px;
-    /* padding-top: 30px; */
   padding-bottom: 30px;
 }
 .hebergements-cards a {
