@@ -183,12 +183,12 @@ nav li:hover a {
                       /*******************              Filtres              *******************/
 
 .search-filters {
-  width: Hug (758px)px;
-  height: Fixed (50px)px;
+  
+
   gap: 15px;
-  opacity: 0px;
-  display: flex;
-  align-items: center;
+  
+
+
 }
 
 .search-filters>h3 {
@@ -224,8 +224,8 @@ nav li:hover a {
   margin: 20px 0;
   display: flex;
   align-items: center;
-	width: Fill (1,340px)px;
-  height: Fixed (24px)px;
+
+
   gap: 10px;
 }
 
@@ -270,6 +270,7 @@ nav li:hover a {
   justify-content: space-between;
   align-items: center;
 }
+
 .hebergements-cards {
   display: flex; 
   justify-content: center;
@@ -369,9 +370,9 @@ nav li:hover a {
   flex-direction: column;
   align-items: flex-start;
   box-sizing: border-box;
-  width: Fill (1,340px)px;
-height: Hug (559.02px)px;
-padding: 30px 0px 0px 0px;
+
+  
+  padding: 30px 0px 0px 0px;
 
 
 }
@@ -385,8 +386,8 @@ padding: 30px 0px 0px 0px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap:30px;
-  width: Fill (1,280px)px;
-  height: Hug (439px)px;
+
+  
 }
 
 .activites-cards .card {
