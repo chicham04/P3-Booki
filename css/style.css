@@ -183,6 +183,8 @@ p {
 
 .search-filters {
   gap: 15px;
+  display: flex;
+  align-items: center;
 }
 
 .search-filters > h3 {
@@ -202,7 +204,7 @@ p {
   font-weight: 700;
   display: inline-flex;
   align-items: center;
-  gap: 1rem;
+  gap: 10px;
   height: 50px;
   padding: 0 15px;
   border-radius: 25px;
